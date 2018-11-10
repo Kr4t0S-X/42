@@ -1,0 +1,4 @@
+./tmp/mymaintest_libft/main.c:51:10: fatal error: 'libft.h' file not found
+#include <libft.h> /* compile with -I./ */
+         ^~~~~~~~~
+1 error generated.

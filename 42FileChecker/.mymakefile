@@ -1,0 +1,17 @@
+CLEANING DIRECTORY
+-> Cleaning directory failed when processing 'fclean' rule
+--------------------------------------------
+CHECKING RULE: all
+-> The rule 'all' should call the rule '$(NAME)'
+--------------------------------------------
+CHECKING RULE: clean
+-> Cannot check the rule 'clean' because of the failing rule 'all'
+--------------------------------------------
+CHECKING RULE: re
+-> Cannot check the rule 're' because of the failing rule 'all'
+--------------------------------------------
+CHECKING RULE: fclean
+-> Failing rule: It should have cleaned the objects files
+--------------------------------------------
+CHECKING RULE: $(NAME)
+-> Missing rule

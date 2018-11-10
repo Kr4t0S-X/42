@@ -1,0 +1,160 @@
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:2:10: error: empty filename
+#include ""
+         ^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:4:1: warning: implicit declaration of function 'ft_putstr' is invalid in C99 [-Wimplicit-function-declaration]
+ft_putstr(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:5:1: warning: implicit declaration of function 'ft_memset' is invalid in C99 [-Wimplicit-function-declaration]
+ft_memset(NULL, 0, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:6:1: warning: implicit declaration of function 'ft_bzero' is invalid in C99 [-Wimplicit-function-declaration]
+ft_bzero(NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:7:1: warning: implicit declaration of function 'ft_memcpy' is invalid in C99 [-Wimplicit-function-declaration]
+ft_memcpy(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:8:1: warning: implicit declaration of function 'ft_memccpy' is invalid in C99 [-Wimplicit-function-declaration]
+ft_memccpy(NULL, NULL, 0, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:9:1: warning: implicit declaration of function 'ft_memmove' is invalid in C99 [-Wimplicit-function-declaration]
+ft_memmove(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:10:1: warning: implicit declaration of function 'ft_memchr' is invalid in C99 [-Wimplicit-function-declaration]
+ft_memchr(NULL, 0, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:11:1: warning: implicit declaration of function 'ft_memcmp' is invalid in C99 [-Wimplicit-function-declaration]
+ft_memcmp(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:12:1: warning: implicit declaration of function 'ft_strlen' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strlen(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:13:1: warning: implicit declaration of function 'ft_strdup' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strdup(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:14:1: warning: implicit declaration of function 'ft_strcpy' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strcpy(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:15:1: warning: implicit declaration of function 'ft_strncpy' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strncpy(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:16:1: warning: implicit declaration of function 'ft_strcat' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strcat(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:17:1: warning: implicit declaration of function 'ft_strncat' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strncat(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:18:1: warning: implicit declaration of function 'ft_strlcat' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strlcat(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:19:1: warning: implicit declaration of function 'ft_strchr' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strchr(NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:20:1: warning: implicit declaration of function 'ft_strrchr' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strrchr(NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:21:1: warning: implicit declaration of function 'ft_strstr' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strstr(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:22:1: warning: implicit declaration of function 'ft_strnstr' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strnstr(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:23:1: warning: implicit declaration of function 'ft_strcmp' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strcmp(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:24:1: warning: implicit declaration of function 'ft_strncmp' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strncmp(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:25:1: warning: implicit declaration of function 'ft_atoi' is invalid in C99 [-Wimplicit-function-declaration]
+ft_atoi(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:26:1: warning: implicit declaration of function 'ft_isalpha' is invalid in C99 [-Wimplicit-function-declaration]
+ft_isalpha(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:27:1: warning: implicit declaration of function 'ft_isdigit' is invalid in C99 [-Wimplicit-function-declaration]
+ft_isdigit(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:28:1: warning: implicit declaration of function 'ft_isalnum' is invalid in C99 [-Wimplicit-function-declaration]
+ft_isalnum(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:29:1: warning: implicit declaration of function 'ft_isascii' is invalid in C99 [-Wimplicit-function-declaration]
+ft_isascii(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:30:1: warning: implicit declaration of function 'ft_isprint' is invalid in C99 [-Wimplicit-function-declaration]
+ft_isprint(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:31:1: warning: implicit declaration of function 'ft_toupper' is invalid in C99 [-Wimplicit-function-declaration]
+ft_toupper(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:32:1: warning: implicit declaration of function 'ft_tolower' is invalid in C99 [-Wimplicit-function-declaration]
+ft_tolower(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:33:1: warning: implicit declaration of function 'ft_memalloc' is invalid in C99 [-Wimplicit-function-declaration]
+ft_memalloc(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:34:1: warning: implicit declaration of function 'ft_memdel' is invalid in C99 [-Wimplicit-function-declaration]
+ft_memdel(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:35:1: warning: implicit declaration of function 'ft_strnew' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strnew(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:36:1: warning: implicit declaration of function 'ft_strdel' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strdel(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:37:1: warning: implicit declaration of function 'ft_strclr' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strclr(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:38:1: warning: implicit declaration of function 'ft_striter' is invalid in C99 [-Wimplicit-function-declaration]
+ft_striter(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:39:1: warning: implicit declaration of function 'ft_striteri' is invalid in C99 [-Wimplicit-function-declaration]
+ft_striteri(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:40:1: warning: implicit declaration of function 'ft_strmap' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strmap(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:41:1: warning: implicit declaration of function 'ft_strmapi' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strmapi(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:42:1: warning: implicit declaration of function 'ft_strequ' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strequ(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:43:1: warning: implicit declaration of function 'ft_strnequ' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strnequ(NULL, NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:44:1: warning: implicit declaration of function 'ft_strsub' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strsub(NULL, 0, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:45:1: warning: implicit declaration of function 'ft_strjoin' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strjoin(NULL, NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:46:1: warning: implicit declaration of function 'ft_strtrim' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strtrim(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:47:1: warning: implicit declaration of function 'ft_strsplit' is invalid in C99 [-Wimplicit-function-declaration]
+ft_strsplit(NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:48:1: warning: implicit declaration of function 'ft_itoa' is invalid in C99 [-Wimplicit-function-declaration]
+ft_itoa(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:49:1: warning: implicit declaration of function 'ft_putchar' is invalid in C99 [-Wimplicit-function-declaration]
+ft_putchar(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:50:1: warning: implicit declaration of function 'ft_putchar_fd' is invalid in C99 [-Wimplicit-function-declaration]
+ft_putchar_fd(0, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:52:1: warning: implicit declaration of function 'ft_putstr_fd' is invalid in C99 [-Wimplicit-function-declaration]
+ft_putstr_fd(NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:53:1: warning: implicit declaration of function 'ft_putendl' is invalid in C99 [-Wimplicit-function-declaration]
+ft_putendl(NULL);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:54:1: warning: implicit declaration of function 'ft_putendl_fd' is invalid in C99 [-Wimplicit-function-declaration]
+ft_putendl_fd(NULL, 0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:55:1: warning: implicit declaration of function 'ft_putnbr' is invalid in C99 [-Wimplicit-function-declaration]
+ft_putnbr(0);
+^
+/Users/cghanime/42/42FileChecker/tmp/forbiddenfuncs.c:56:1: warning: implicit declaration of function 'ft_putnbr_fd' is invalid in C99 [-Wimplicit-function-declaration]
+ft_putnbr_fd(0, 0);
+^
+52 warnings and 1 error generated.

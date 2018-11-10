@@ -1,0 +1,52 @@
+Norme: /Users/cghanime/42/Libft/srcs/ft_bzero.c
+Error: 42 header not at top of the file
+Error (line 4): declarations in ft_memset are bad aligned
+Error (line 15, col 1): missing space after return
+Norme: /Users/cghanime/42/Libft/srcs/ft_memcpy.c
+Error: 42 header not at top of the file
+Error (line 3): declarations in ft_memcpy are bad aligned
+Error (line 9, col 15): space after cast
+Error (line 10, col 15): space after cast
+Norme: /Users/cghanime/42/Libft/srcs/ft_memchr.c
+Error: 42 header not at top of the file
+Error (line 3): declarations in ft_memchr are bad aligned
+Error (line 9, col 14): space after cast
+Error (line 10, col 20): space after cast
+Norme: /Users/cghanime/42/Libft/srcs/ft_memccpy.c
+Error: 42 header not at top of the file
+Error (line 3): declarations in ft_memccpy are bad aligned
+Error (line 3): line has 82 characters
+Error (line 3, col 61): bad character after ,
+Error (line 10, col 15): space after cast
+Error (line 11, col 15): space after cast
+Error (line 12, col 20): space after cast
+Error (line 17, col 3): missing space after return
+Error (line 20): bad indentation
+Norme: /Users/cghanime/42/Libft/srcs/ft_memcmp.c
+Error: 42 header not at top of the file
+Error (line 3): declarations in ft_memcmp are bad aligned
+Error (line 3): declarations must be followed by one empty line in ft_memcmp
+Error (line 8): spaces at the end of line
+Error (line 11, col 23): space after cast
+Error (line 12, col 23): space after cast
+Error (line 21, col 3): missing space after return
+Norme: /Users/cghanime/42/Libft/srcs/ft_memset.c
+Error: 42 header not at top of the file
+Error (line 4): declarations in ft_memset are bad aligned
+Error (line 15, col 1): missing space after return
+Norme: /Users/cghanime/42/Libft/srcs/ft_strcpy.c
+Error: 42 header not at top of the file
+Error (line 2): Space before function name
+Norme: /Users/cghanime/42/Libft/srcs/ft_memmove.c
+Error: 42 header not at top of the file
+Error (line 3): declarations in ft_memmove are bad aligned
+Error (line 10, col 15): space after cast
+Error (line 11, col 15): space after cast
+Norme: /Users/cghanime/42/Libft/srcs/ft_strlen.c
+Error: 42 header not at top of the file
+Norme: /Users/cghanime/42/Libft/srcs/ft_strdup.c
+Error: 42 header not at top of the file
+Error (line 3): declarations in ft_strdup are bad aligned
+Norme: /Users/cghanime/42/Libft/srcs/ft_strncpy.c
+Error: 42 header not at top of the file
+Error (line 3): Space before function name

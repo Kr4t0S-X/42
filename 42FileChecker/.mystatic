@@ -1,0 +1,2 @@
+ft_bzero.c (line 4) : ft_memset() should be declared as static
+ft_strcpy.c (line 2) : strcpy() should be declared as static

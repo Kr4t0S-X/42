@@ -1,0 +1,43 @@
+ make re -C /Users/cghanime/42/Libft 
+/bin/rm -f libft.a
+gcc -Wall -Wextra -Werror -I /includes/ -c srcs/*.c
+ar -rcv libft.a *.o
+a - ft_bzero.o
+a - ft_memccpy.o
+a - ft_memchr.o
+a - ft_memcmp.o
+a - ft_memcpy.o
+a - ft_memmove.o
+a - ft_memset.o
+a - ft_strcpy.o
+a - ft_strdup.o
+a - ft_strlen.o
+a - ft_strncpy.o
+ranlib libft.a
+[  Cleaning #0  ]
+‚M-^^§  rm -f obj/src/main.o obj/src/test_functions.o obj/src/display_test_result.o obj/src/signal.o obj/src/sandbox.o obj/src/bench_functions.o obj/src/additional_functions.o obj/hardcore-mode/hardcore-main.o obj/hardcore-mode/error.o obj/hardcore-mode/ncurses-display.o obj/hardcore-mode/test-init.o obj/hardcore-mode/test-utils.o obj/hardcore-mode/test-strcpy.o obj/hardcore-mode/test-strcmp.o obj/hardcore-mode/test-strncmp.o obj/hardcore-mode/test-memset.o obj/hardcore-mode/test-memcpy.o obj/hardcore-mode/test-memccpy.o obj/hardcore-mode/test-memmove.o obj/hardcore-mode/test-memchr.o obj/hardcore-mode/test-memcmp.o obj/hardcore-mode/test-strlen.o obj/hardcore-mode/test-strncpy.o obj/hardcore-mode/test-strcat.o obj/hardcore-mode/test-strncat.o obj/hardcore-mode/test-strchr.o obj/hardcore-mode/test-strrchr.o obj/hardcore-mode/test-strstr.o 
+‚M-^^§  rm -f libft.so assets/libft.a assetslibtests assets/malloc.dylib 
+‚M-^^§  rm -f run_test 
+ make -j 3 -C /Users/cghanime/42/Libft 
+gcc -Wall -Wextra -Werror -I /includes/ -c srcs/*.c
+ar -rcv libft.a *.o
+r - ft_bzero.o
+r - ft_memccpy.o
+r - ft_memchr.o
+r - ft_memcmp.o
+r - ft_memcpy.o
+r - ft_memmove.o
+r - ft_memset.o
+r - ft_strcpy.o
+r - ft_strdup.o
+r - ft_strlen.o
+r - ft_strncpy.o
+ranlib libft.a
+ cp /Users/cghanime/42/Libft/libft.a assets/ 
+‚M-^^§  clang -shared -fPIC assets/tmp/ft_bzero.o assets/tmp/ft_memccpy.o assets/tmp/ft_memchr.o assets/tmp/ft_memcmp.o assets/tmp/ft_memcpy.o assets/tmp/ft_memmove.o assets/tmp/ft_memset.o assets/tmp/ft_strcpy.o assets/tmp/ft_strdup.o assets/tmp/ft_strlen.o assets/tmp/ft_strncpy.o -o libft.so 
+duplicate symbol _ft_memset in:
+    assets/tmp/ft_bzero.o
+    assets/tmp/ft_memset.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libft.so] Error 1
