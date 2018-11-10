@@ -1,5 +1,0 @@
-Credentials cache: API:5D024649-F3E5-441D-83CC-4028393FD54A
-        Principal: cghanime@42.FR
-
-  Issued                Expires               Principal
-Aug 27 13:59:04 2018  Sep  3 13:59:04 2018  krbtgt/42.FR@42.FR
