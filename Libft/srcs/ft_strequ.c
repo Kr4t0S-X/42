@@ -1,27 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strequ.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cghanime <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/09 20:04:56 by cghanime          #+#    #+#             */
-/*   Updated: 2018/11/13 05:16:13 by cghanime         ###   ########.fr       */
+/*   Created: 2018/11/13 00:17:13 by cghanime          #+#    #+#             */
+/*   Updated: 2018/11/13 05:11:37 by cghanime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "string.h"
+#include "libft.h"
 
-char	*strcpy(char *dst, const char *src)
+int		ft_strequ(char const *s1, char const *s2)
 {
 	int i;
+	int boolean;
 
 	i = 0;
-	while (src[i])
+	while (s1[i] != '\0' ||  s2[i] != '\0')
 	{
-		dst[i] = src[i];
+		if (s1[i] != s2[i])
+			return (1);
 		i++;
 	}
-	dst[i] = src[i];
-	return (dst);
+	return (0);
 }

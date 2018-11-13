@@ -6,13 +6,13 @@
 /*   By: cghanime <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/09 20:00:59 by cghanime          #+#    #+#             */
-/*   Updated: 2018/11/09 20:05:58 by cghanime         ###   ########.fr       */
+/*   Updated: 2018/11/13 00:27:21 by cghanime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memccpy(void *restrict dst, const void *restrict src,int c, size_t n)
+void	*ft_memccpy(void *dst, const void *src,int c, size_t n)
 {
 	char *cdst;
 	char *csrc;

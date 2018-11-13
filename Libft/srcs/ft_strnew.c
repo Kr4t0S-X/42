@@ -6,9 +6,11 @@
 /*   By: cghanime <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/10 21:55:35 by cghanime          #+#    #+#             */
-/*   Updated: 2018/11/10 22:19:57 by cghanime         ###   ########.fr       */
+/*   Updated: 2018/11/13 05:13:13 by cghanime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strnew(size_t size)
 {

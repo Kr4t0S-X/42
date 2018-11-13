@@ -1,27 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cghanime <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/09 20:04:56 by cghanime          #+#    #+#             */
-/*   Updated: 2018/11/13 05:16:13 by cghanime         ###   ########.fr       */
+/*   Created: 2018/11/12 22:03:22 by cghanime          #+#    #+#             */
+/*   Updated: 2018/11/12 22:06:25 by cghanime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "string.h"
+#include "libft.h"
 
-char	*strcpy(char *dst, const char *src)
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	int i;
 
 	i = 0;
-	while (src[i])
+	while (i != '\0')
 	{
-		dst[i] = src[i];
+		(*f)(i, s[i]);
 		i++;
 	}
-	dst[i] = src[i];
-	return (dst);
 }

@@ -1,27 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strclr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cghanime <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/09 20:04:56 by cghanime          #+#    #+#             */
-/*   Updated: 2018/11/13 05:16:13 by cghanime         ###   ########.fr       */
+/*   Created: 2018/11/12 20:36:32 by cghanime          #+#    #+#             */
+/*   Updated: 2018/11/13 05:11:14 by cghanime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "string.h"
+#include "libft.h"
 
-char	*strcpy(char *dst, const char *src)
+void	ft_strclr(char *s)
 {
 	int i;
 
 	i = 0;
-	while (src[i])
+	while (s[i] != '\0')
 	{
-		dst[i] = src[i];
+		s[i] = '\0';
 		i++;
 	}
-	dst[i] = src[i];
-	return (dst);
 }

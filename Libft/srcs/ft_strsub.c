@@ -1,27 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strsub.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: cghanime <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/11/09 20:04:56 by cghanime          #+#    #+#             */
-/*   Updated: 2018/11/13 05:16:13 by cghanime         ###   ########.fr       */
+/*   Created: 2018/11/13 05:35:04 by cghanime          #+#    #+#             */
+/*   Updated: 2018/11/13 05:46:12 by cghanime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "string.h"
+#include "libft.h"
 
-char	*strcpy(char *dst, const char *src)
+char *ft_strsub(char const *s, unsigned int start, size_t len)
 {
+	char *new;
 	int i;
 
-	i = 0;
-	while (src[i])
+	new = malloc(sizeof(char) * (len + 1));
+		if (!new)
+			return (NULL);
+	i = start;
+	while (i <= len)
 	{
-		dst[i] = src[i];
+		new[i] = s[i];
 		i++;
 	}
-	dst[i] = src[i];
-	return (dst);
+	return (new);
 }

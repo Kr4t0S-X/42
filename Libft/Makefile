@@ -3,17 +3,17 @@ SRCS=srcs/*.c
 OBJECTS=*.o
 HEADERS_FOLDER=includes/
 
-all: make_lib
+all: $(NAME)
 
-make_lib:
+$(NAME):
 	gcc -Wall -Wextra -Werror -I $(HEADERS_FOLDER) -c $(SRCS)
 	ar -rcv $(NAME) $(OBJECTS)
 	ranlib $(NAME)
 
 clean:
-	/bin/rm -f *.o
+	rm -f $(OBJECTS)
 
 fclean:
-	/bin/rm -f $(NAME)
+	rm -f $(NAME)
 
 re: fclean all
